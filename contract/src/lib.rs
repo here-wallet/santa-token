@@ -50,8 +50,15 @@ impl Contract {
     }
 
     pub fn happy_new_year(&mut self) {
-        assert!(env::block_timestamp() > 0, "Too early for a surprise");
-        self.random_seed.set(&String::from_utf8(env::random_seed()).unwrap());
+        assert!(env::block_timestamp() >= 1672560000, "Too early for a surprise");
+        self.random_seed.set(&bs58::encode(env::random_seed()).into_string());
+    }
+
+    pub fn get_seed(&self) -> Option<String> {
+        if self.random_seed.is_some() {
+            return Some(self.random_seed.get().unwrap());
+        }
+        None
     }
 }
 
