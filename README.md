@@ -13,7 +13,7 @@ A total of 400,000 tokens have been issued and another 600,000 can be earned thr
 
 Santa Token can be earned. To do this, you just need to transfer it to a friend by phone number. For each transfer, you and your friend will earn 50 Santa tokens. We think this is a great way to surprise your friends and give them a real Christmas miracle.
 
-{% embed url="https://phone.herewallet.app/" %}
+https://phone.herewallet.app
 
 ## Handing out gifts
 
@@ -67,8 +67,8 @@ NFT HERE <> ALISA
 
 ### Contract code
 
-{% embed url="https://github.com/here-wallet/santa-token" %}
+https://github.com/here-wallet/santa-token
 
 ### Contact
 
-{% embed url="https://explorer.near.org/accounts/santa_token.near" %}
+https://explorer.near.org/accounts/santa_token.near
