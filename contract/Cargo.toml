@@ -1,0 +1,12 @@
+[package]
+name = "santa-token"
+version = "1.2.0"
+authors = ["HERE Wallet Inc <petr@herewallet.app>"]
+edition = "2018"
+
+[lib]
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+near-sdk = "4.0.0"
+near-contract-standards = "4.0.0"
